@@ -10,7 +10,7 @@ print(calc.evaluate(expr))
 
 ## Info
 Recognizes the following operators: +, -, \*, /, %, ^  
-You can enter any expression composed of these operators, digits, and  parentheses. Additionally, this class can simplify any number of sequential negative signs ("-"), so it can handle statements such as "2 -- -2". Implicit multiplication by parentheses is also understood (e.g. "2(3)" would be parsed as "2\*3").
+You can enter any expression composed of these operators, digits, and  parentheses. Additionally, this class can simplify any number of sequential negative signs, so it can handle statements such as "2 -- -2". Implicit multiplication by parentheses is also understood (e.g. "2(3)" would be parsed as "2\*3").
 
 Performs validation of the input. Checks for:  
 - Balanced parentheses
